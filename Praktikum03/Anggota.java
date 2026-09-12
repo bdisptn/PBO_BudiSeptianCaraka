@@ -1,7 +1,7 @@
 package Praktikum03; 
 
 public class Anggota {
-    // Atribut dibuat private (Enkapsulasi)
+    
     private String nomorKTP;
     private String nama;
     private int limitPinjaman;
@@ -14,7 +14,6 @@ public class Anggota {
         this.jumlahPinjaman = 0; 
     }
 
-    // Getter Method
     public String getNomorKTP() {
         return nomorKTP;
     }
