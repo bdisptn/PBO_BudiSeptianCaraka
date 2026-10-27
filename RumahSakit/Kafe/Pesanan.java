@@ -29,7 +29,7 @@ public class Pesanan {
     }
 
     public void tambahMenu(Menu menu) {
-        this.daftarMenu.add(menu);
+        daftarMenu.add(menu);
     }
 
     public double hitungTotal() {
@@ -44,7 +44,7 @@ public class Pesanan {
         this.statusPembayaran = true;
     }
 
-    public String getInfoPesanan() {
+    public void getInfoPesanan() {
        System.out.println("\tID Pesanan       : " + idPesanan);
         System.out.println("\tStatus Pembayaran: " + (statusPembayaran ? "Lunas" : "Belum Lunas"));
         System.out.println("\tDaftar Menu:");
@@ -56,6 +56,5 @@ public class Pesanan {
             System.out.println("Belum ada menu yang dipesan");
         }
         System.out.println("\tTotal Harga      : " + hitungTotal());
-        return "";
     }
 }

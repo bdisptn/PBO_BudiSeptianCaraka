@@ -1,13 +1,11 @@
 package JobsheetW07.Tugas;
 
 public class Opor extends Makanan {
-    private int santan;
-    private int ayam;
+    public int santan;
+    public int ayam;
 
     public Opor() {
-        super();
-        this.santan = 0;
-        this.ayam = 0;
+        
     }
 
     public Opor(int garam, int gula, int air, int santan, int ayam) {

@@ -5,7 +5,7 @@ public class KafeDemo {
         // Membuat objek Pelanggan
         Pelanggan pelanggan1 = new Pelanggan("Budi", 100);
         Pelanggan pelanggan2 = new Pelanggan("Siti", 50);
-
+        pelanggan2.setNama("Siti Aminah");
         // Membuat objek Menu
         Menu menu1 = new Menu("Nasi Goreng", 15000);
         Menu menu2 = new Menu("Mie Ayam", 12000);

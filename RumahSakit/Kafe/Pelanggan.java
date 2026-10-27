@@ -42,7 +42,7 @@ public class Pelanggan {
         System.out.println("Riwayat Pesanan :");
         if (!riwayatPesanan.isEmpty()) {
             for (Pesanan pesanan : riwayatPesanan) {
-                System.out.print(pesanan.getInfoPesanan());
+                pesanan.getInfoPesanan();
             }
         } else {
             System.out.println("Belum ada riwayat pesanan");

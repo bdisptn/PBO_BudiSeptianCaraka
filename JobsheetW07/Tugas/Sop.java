@@ -1,17 +1,15 @@
 package JobsheetW07.Tugas;
 
 public class Sop extends Makanan {
-    private int sosis;
-    private int sayur;
+    public int sosis;
+    public int sayur;
 
     public Sop() {
         super();
-        this.sosis = 0;
-        this.sayur = 0;
     }
 
-    public Sop(int garam, int gula, int air, int sosis, int sayur) {
-        super(garam, gula, air);
+    public Sop(int asin, int manis, int cair, int sosis, int sayur) {
+        super(asin, manis, cair);
         this.sosis = sosis;
         this.sayur = sayur;
     }

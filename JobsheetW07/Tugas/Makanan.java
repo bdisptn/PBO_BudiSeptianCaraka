@@ -1,9 +1,9 @@
 package JobsheetW07.Tugas;
 
 public class Makanan {
-    public int garam;
-    public int gula;
-    public int air;
+    protected int garam;
+    protected int gula;
+    protected int air;
 
     public Makanan() {
 
